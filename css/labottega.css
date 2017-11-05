@@ -14,14 +14,26 @@ body {
   line-height: 1.75em;
   height: 24px;
 }
+.fa-facebook-square {
+    color: #3B5998;
+}
+.fa-instagram {
+    color: red;
+}
+.fa-tripadvisor {
+  color: #10B395;
+}
+.fa-whatsapp {
+  color: #10B395;
+}
 .jumbotron {
   color: #fffeee;
   text-shadow: 1px 1px #666;
   background-color: #ffffed;
-  background-image: url("../img/Entrata_da_note.png");
+  background-image: url("../img/Entrata_sepia.png");
   background-repeat: no-repeat;
   background-position: center ;
-  background-size: cover;
+  background-size: contain;
   min-height: 300px;
   padding-top: 10px;
   padding-bottom: 10px;
@@ -29,6 +41,7 @@ body {
   margin-bottom: 10px;
 }
 .pergamena {
+  background-color: #fffeee;
   padding-top: 10px;
   padding-bottom: 10px;
   margin-top: 10px;
@@ -51,6 +64,11 @@ body {
   /*min-width: 100%;*/
   /*min-height: 88%;*/
   position: fixed !important;
+}
+.recensioni {
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
 .carousel-control.left, .carousel-control.right {
    background-image: none

@@ -1,250 +1,268 @@
-/*CSS La Bottega*/
 html {
   height: 100%;
 }
+
 body {
-    color: #777;
-    font-family: 'Montserrat', serif;
-    height: 100%;
-    width: 100%;
-    padding-top: 50px;
-    position: relative;
-    overflow-y: scroll;
-  }
-  a:link {
-    color: #ff0000;
-    text-decoration: none;
-  }
-  a:hover {
-    color: #ff0000;
-  }
-  a:visited {
-    color: #903a3a;
-  }
-  blockquote {
-    background: #fff;
-  }
-  h1, h2, h3 {
-    font-family: 'Allura', cursive;
-    text-shadow: 3px 3px 3px #aaa;
-  }
-  h4 {
-    font-family: 'Montserrat', serif;
-  }
-  section:before {
-    display: block;
-    content: " ";
-    margin-top: -60px;
-    height: 60px;
-    visibility: hidden;
-  }
-  iframe {
-    border:none;
-    overflow:hidden;
-  }
-  footer {
-    margin-top: 20px;
-  }
-.btn, .btn-default {
-  line-height: 1.75em;
-  height: 24px;
+  color: #777;
+  font-family: Montserrat, serif;
+  height: 100%;
+  width: 100%;
+  padding-top: 50px;
+  position: relative;
+  overflow-y: scroll;
 }
+
+a:link {
+  color: red;
+  text-decoration: none;
+}
+
+a:visited {
+  color: #903a3a;
+}
+
+blockquote {
+  background: #fff;
+}
+
+h1, h2, h3 {
+  font-family: Allura, cursive;
+  text-shadow: 3px 3px 3px #aaa;
+}
+
+h4 {
+  font-family: Montserrat, serif;
+}
+
+section:before {
+  display: block;
+  content: " ";
+  margin-top: -60px;
+  height: 60px;
+  visibility: hidden;
+}
+
+iframe {
+  border: none;
+  overflow: hidden;
+}
+
+footer {
+  margin-top: 20px;
+}
+
+/*.btn,.btn-default {
+line-height:1.75em;
+height:24px;
+}*/
 .carousel-control.left, .carousel-control.right {
-   background-image: none;
-   color: #ff7e76
+  background-image: none;
+  color: #ff7e76;
 }
-.fa-facebook-square,.fa-facebook-official {
-    color: #3B5998;
+
+.fa-facebook-square, .fa-facebook-official {
+  color: #3B5998;
 }
-.fa-instagram {
-    color: red;
-}
-.fa-tripadvisor {
-  color: #10B395;
-}
-.fa-whatsapp {
-  color: #10B395;
-}
+
 .fa-yelp {
   color: #D32323;
 }
+
 .jumbotron {
   color: #777;
   background-color: #ffffed;
   background-repeat: no-repeat;
-  background-position: center ;
+  background-position: center;
   background-size: auto;
   min-height: 200px;
   padding-top: 10px;
   padding-bottom: 10px;
-  /*margin-top: 20px;*/
   margin-bottom: 0;
 }
+
 #myBtn {
-    display: none; /* Hidden by default */
-    position: fixed; /* Fixed/sticky position */
-    bottom: 15px; /* Place the button at the bottom of the page */
-    right: 15px; /* Place the button 30px from the right */
-    z-index: 99; /* Make sure it does not overlap */
-    border: none; /* Remove borders */
-    outline: none; /* Remove outline */
-    background-color: grey; /* Set a background color */
-    color: white; /* Text color */
-    cursor: pointer; /* Add a mouse pointer on hover */
-    padding: 10px; /* Some padding */
-    border-radius: 10px; /* Rounded corners */
-    font-size: 14px; /* Increase font size */
+  display: none;
+  position: fixed;
+  bottom: 15px;
+  right: 15px;
+  z-index: 99;
+  border: none;
+  outline: none;
+  background-color: grey;
+  color: #FFF;
+  cursor: pointer;
+  border-radius: 10px;
+  font-size: 14px;
+  padding: 10px;
 }
 
 #myBtn:hover {
-    background-color: #555; /* Add a dark-grey background on hover */
+  background-color: #666;
 }
+
 .navbar .navbar-brand {
   margin-bottom: auto;
   padding-top: 1px;
   padding-left: 1px;
 }
+
 .navbar .navbar-brand img {
   height: 49px;
   width: 49px;
 }
+
 .navbar {
--webkit-box-shadow: 0 3px 6px 0 rgba(176,176,176,0.82);
--moz-box-shadow: 0 3px 6px 0 rgba(176,176,176,0.82);
-box-shadow: 0 3px 6px 0 rgba(176,176,176,0.82);
+  -webkit-box-shadow: 0 3px 6px 0 rgba(176, 176, 176, 0.82);
+  -moz-box-shadow: 0 3px 6px 0 rgba(176, 176, 176, 0.82);
+  box-shadow: 0 3px 6px 0 rgba(176, 176, 176, 0.82);
+  background-color: #ffffed;
+  height: auto;
 }
+
 .navbar-default .navbar-nav>li>a {
   padding-left: 5px;
   padding-right: 5px;
 }
-.navbar {
-  background-color: #ffffed;
-  height: auto;
+
+.navbar-default .navbar-nav>.active>a, .navbar-default .navbar-nav>.active>a:focus, .navbar-default .navbar-nav>.active>a:hover {
+  color: #fff;
+  background-color: #ddd;
 }
+
 .nav img li a {
- margin-top: 35px;
- padding-top: 25px;
+  margin-top: 35px;
+  padding-top: 25px;
 }
+
 .navbar li a:hover {
   border: 1px;
+  color: red;
+  background-color: #b0baff;
   border-color: #ccc;
-  color: #fff;
-  background-color:#b0baff;
 }
+
 .natalize {
-  color: #ff0000;
+  color: red;
   font-size: 4em;
   text-shadow: 1px -1px #fff, 0 3px 9px #fffeee;
 }
-.parallax1 {
-    /* The image used: 1600x1200*/
-    background-image: url("../img/IMG-20170705-WA0005.jpg");
-    background-color: #fffeee;
-    /* Set a specific height */
-    min-height: 500px;
 
-    /* Create the parallax scrolling effect */
-    background-attachment: fixed;
-    background-position: center;
-    background-repeat: no-repeat;
-    background-size: cover;
+.parallax1 {
+  background-image: url(../img/IMG-20170705-WA0005.jpg);
+  background-color: #fffeee;
+  min-height: 500px;
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
 }
+
 .parallax2 {
-  /* The image used: 1600x1200*/
-  background-image: url("../img/IMG_0004.JPG");
-  /* Set a specific height */
+  background-image: url(../img/IMG_0004.JPG);
   min-height: 600px;
-  /* Create the parallax scrolling effect */
   background-attachment: fixed;
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
 }
+
 .parallax3 {
-  /* The image used: 1600x1200*/
-  background-image: url("../img/IMG-20170705-WA0007.jpg");
-  /* Set a specific height */
+  background-image: url(../img/IMG-20170705-WA0007.jpg);
   min-height: 600px;
-  /* Create the parallax scrolling effect */
   background-attachment: fixed;
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
 }
+
 .parallax4 {
-    /* The image used: 1600x1200*/
-    background-image: url("../img/Comune_di_Liberi.jpg");
-    /* Set a specific height */
-    min-height: 550px;
-    /* Create the parallax scrolling effect */
-    background-attachment: fixed;
-    background-position: center;
-    background-repeat: no-repeat;
-    background-size: cover;
+  background-image: url(../img/Comune_di_Liberi.jpg);
+  min-height: 550px;
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
 }
+
 .pergamena {
   background-color: #fffeee;
-  box-shadow: 3px 3px 13px 0 rgba(176,176,176,0.82);
-  -webkit-box-shadow: 3px 3px 13px 0 rgba(176,176,176,0.82);
-  -moz-box-shadow: 3px 3px 13px 0 rgba(176,176,176,0.82);
+  box-shadow: 3px 3px 13px 0 rgba(176, 176, 176, 0.82);
+  -webkit-box-shadow: 3px 3px 13px 0 rgba(176, 176, 176, 0.82);
+  -moz-box-shadow: 3px 3px 13px 0 rgba(176, 176, 176, 0.82);
   padding-top: 10px;
   padding-bottom: 10px;
   margin-top: 20px;
   margin-bottom: 20px;
 }
+
 .recensioni {
   display: flex;
   justify-content: center;
   align-items: center;
 }
-/* Turn off parallax scrolling for tablets and phones. Increase/decrease the pixels if needed */
-@media only screen and (max-device-width: 768px) {
-   .parallax1,.parallax2,.parallax3,.parallax4 {
-       background-attachment: scroll;
-       background-position: center;
-       background-repeat: no-repeat;
-       /*background-size: contain;
-       max-height: 320px;*/
-       min-height: 280px;
-   }
-   iframe {
-     height: 500px;
-     width: 280px;
-   }
+
+a:hover, .fa-instagram {
+  color: red;
 }
+
+.fa-tripadvisor, .fa-whatsapp {
+  color: #10B395;
+}
+
+@media only screen and (max-device-width: 768px) {
+  .parallax1, .parallax2, .parallax3, .parallax4 {
+    background-attachment: scroll;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: contain;
+    max-height: 320px;
+    min-height: 240px;
+  }
+
+  iframe {
+    height: 500px;
+    width: 280px;
+  }
+}
+
 @media only screen and (min-width: 768px) and (max-width: 1291px) {
-  .navbar-header {
-      float: none;
+  .navbar-left, .navbar-right {
+    float: none !important;
   }
-  .navbar-left,.navbar-right {
-      float: none !important;
-  }
+
   .navbar-toggle {
-      display: block;
+    display: block;
   }
+
   .navbar-collapse {
-      border-top: 1px solid transparent;
-      box-shadow: inset 0 1px 0 rgba(255,255,255,0.1);
+    border-top: 1px solid transparent;
+    box-shadow: inset 0 1px 0 rgba(255, 255, 255, 0.1);
   }
+
   .navbar-fixed-top {
-      top: 0;
-      border-width: 0 0 1px;
+    top: 0;
+    border-width: 0 0 1px;
   }
+
   .navbar-collapse.collapse {
-      display: none!important;
+    display: none !important;
   }
+
   .navbar-nav {
-      float: none!important;
-      margin-top: 7.5px;
+    float: none !important;
+    margin-top: 7.5px;
   }
-  .navbar-nav>li {
-      float: none;
-  }
+
   .navbar-nav>li>a {
-      padding-top: 10px;
-      padding-bottom: 10px;
+    padding-top: 10px;
+    padding-bottom: 10px;
   }
-  .collapse.in{
-      display:block !important;
+
+  .collapse.in {
+    display: block !important;
+  }
+
+  .navbar-header, .navbar-nav>li {
+    float: none;
   }
 }

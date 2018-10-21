@@ -55,6 +55,7 @@ footer {
 line-height:1.75em;
 height:24px;
 }*/
+
 .carousel-control.left, .carousel-control.right {
   background-image: none;
   color: #ff7e76;
@@ -126,7 +127,7 @@ height:24px;
 
 .navbar-default .navbar-nav>.active>a, .navbar-default .navbar-nav>.active>a:focus, .navbar-default .navbar-nav>.active>a:hover {
   color: #fff;
-  background-color: #ddd;
+  background-color: #ccc;
 }
 
 .nav img li a {
@@ -185,7 +186,7 @@ height:24px;
 }
 
 .pergamena {
-  background-color: #fffeee;
+  background-color: #fff;
   box-shadow: 3px 3px 13px 0 rgba(176, 176, 176, 0.82);
   -webkit-box-shadow: 3px 3px 13px 0 rgba(176, 176, 176, 0.82);
   -moz-box-shadow: 3px 3px 13px 0 rgba(176, 176, 176, 0.82);
@@ -199,6 +200,10 @@ height:24px;
   display: flex;
   justify-content: center;
   align-items: center;
+}
+
+.well {
+  background-color: #fffeee;
 }
 
 a:hover, .fa-instagram {

@@ -22,6 +22,7 @@ a:visited {
 }
 
 blockquote {
+  font-size: 12px;
   background: #fff;
 }
 
@@ -146,8 +147,11 @@ height:24px;
 }
 
 .natalize {
+  align-items: center;
   color: red;
+  display: flex;
   font-size: 4em;
+  justify-content: center;
   text-shadow: 1px -1px #fff, 0 3px 9px #fffeee;
 }
 
@@ -203,6 +207,10 @@ height:24px;
   display: flex;
   justify-content: center;
   align-items: center;
+}
+
+.stampa, footer {
+  font-size: 11px;
 }
 
 .well {
